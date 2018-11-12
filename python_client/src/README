@@ -4,9 +4,9 @@ python client runs on linux, refer to below information to run client.
 a. compile protoc 2.5
 
 1. tar xzvf protobuf-2.5.0.linux.sources.tar.gz
-2. ./configure --prefix=/usr
-3. make
-4. make install
+2. cd protobuf-2.5.0
+3. ./configure --prefix=/usr
+4. make & make install
 
 
 b. add the variables into bashrc which is current login account.
